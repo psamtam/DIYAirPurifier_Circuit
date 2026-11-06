@@ -1,0 +1,173 @@
+(footprint "DCStepDown"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0186d7d4-a2f8-4ead-8fb8-2bbc36ae2774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DCStepDown"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6a7e997-5f5f-42e5-9ade-989a05099011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e850e4c-430a-4253-a05e-acd295a24972")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cca2d32a-bd40-4673-8b02-224b71d9fe11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8 -4)
+		(end 8.5 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "910ff4a0-2069-4c60-a3d4-71ddbe487526")
+	)
+	(fp_text user "OUT+"
+		(at -14 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91cb6fe3-23cb-4400-bc66-b01b6f48ce12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT-"
+		(at -14 7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe31cdd4-bae1-4a55-b781-e295ef92c559")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN+"
+		(at 10.5 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60182491-532d-434b-a28e-9bd97dbf8d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN-"
+		(at 10.5 7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "282ee290-8af8-4611-99d4-03b18305947f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f8a816a-782c-469d-ba5d-2c44c94e30c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -7.75 -2)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2b172a07-af9f-4c35-9522-c2b67c7b97df")
+	)
+	(pad "2" smd roundrect
+		(at -7.75 6.5)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e54bb13a-fefd-45c9-8fb2-623292ec25a0")
+	)
+	(pad "3" smd roundrect
+		(at 8.25 -2)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2a253e72-6e1e-4c2c-89db-25157561a27d")
+	)
+	(pad "4" smd roundrect
+		(at 8.25 6.5)
+		(size 3.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7de4a792-3bc2-4b3a-8660-ff14c0912d6b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/psamt/3D Objects/AirPurifier/CAD/STEP/DCStepDown.STEP"
+		(offset
+			(xyz 0 -2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
